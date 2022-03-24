@@ -28,3 +28,6 @@ jobs:
       # Runs a single command using the runners shell
       - name: Install SAMPCTL
         run: curl https://raw.githubusercontent.com/Southclaws/sampctl/master/install-deb.sh | sh
+      
+      - name: CHECK SAMPCTL
+        run: sampctl p
