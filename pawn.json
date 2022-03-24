@@ -1,0 +1,11 @@
+{
+	"user": "TEST",
+	"repo": "SAMPCTL",
+	"tag": "0.0.1",
+	"entry": "test.pwn",
+	"output": "gamemodes/test.amx",
+	"dependencies": [
+		"pawn-lang/samp-stdlib"
+	],
+	"local": true
+}
