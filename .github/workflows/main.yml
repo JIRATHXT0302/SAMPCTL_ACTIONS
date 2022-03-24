@@ -42,5 +42,5 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: AMX
-          path: test.amx
+          path: gamemodes/test.amx
 
