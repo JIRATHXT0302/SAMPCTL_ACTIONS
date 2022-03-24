@@ -29,5 +29,8 @@ jobs:
       - name: Install SAMPCTL
         run: curl https://raw.githubusercontent.com/Southclaws/sampctl/master/install-deb.sh | sh
       
-      - name: CHECK SAMPCTL
+      - name: Check SAMPCTL
+        run: sampctl p
+      
+      - name: Check Location
         run: sampctl p
