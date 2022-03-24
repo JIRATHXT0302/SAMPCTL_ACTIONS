@@ -33,4 +33,4 @@ jobs:
         run: sampctl p
       
       - name: Check Location
-        run: sampctl p
+        run: ls
