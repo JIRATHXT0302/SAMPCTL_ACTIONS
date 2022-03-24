@@ -34,3 +34,6 @@ jobs:
       
       - name: Check Location
         run: ls
+        
+      - name: Build
+        run: sampctl p build --forceEnsure
